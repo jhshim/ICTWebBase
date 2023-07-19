@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* img{
+        position: absolute; top:0; left: 0;
+        width: 100%;
+        height: 100%;
+    } */
+    img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .product-title {
+        text-align:center;
+        display:table;
+        border:1px solid #cecece;
+        width:280px;
+        height:250px;
+    }
+
+    .product-img-div {
+        display:table-cell;
+        vertical-align:middle;
+    }
+
+    /* .product-img {
+        max-width:180px;
+        max-height:180px;
+    } */
+</style>
+
+<body>
+    <header>
+        <h2>AUXX</h2>
+        <div id="pagetop" style="position:fixed;padding-left:1px;padding-right:16px">
+        </div>
+        <div style="float: left;">
+            <b><a>C/S CENTER 02-5678-1234</a></b>
+        </div> 
+        <div style="float: right;">
+            <a href="">LOGIN</a>
+            <a href="">JOIN</a>
+            <a href="">CART</a>
+            <a href="">ORDER</a>
+            <a href="">MY PAGE</a>
+        </div>
+
+    </header>
+    <main>
+        <div style="width: 100%; padding-top: 150px;">
+            <!-- <div id="1" style="width: 33%; height:150px; border:1px solid red; float: left;">
+                첫번째 영역
+            </div>
+            <div id="2" style="width: 33%; height:150px; border:1px solid green; float: middle;">
+                두번째 영역
+            </div>
+            <div id="3" style="width: 33%; height:150px; border:1px solid blue; float: right;">
+                세번째 영역
+            </div> -->
+            <div>
+                <div id="1-1" class="product-img-div" style="border: 1px solid black; height:400px; float: left; width: 33%;">
+                    <img class="product-img" src="https://www.aauxx.co.kr/web/product/medium/202305/400a1fd26ecce63da47bd820fae9709e.jpg">
+                </div>
+                <div id="1-2" class="product-img-div" style="border: 1px solid black; height:400px; float: left; width: 33%;">
+                    <img class="product-img" src="https://www.aauxx.co.kr/web/product/medium/202307/294ade3e9b4834e73470eb03a8dabe34.jpg">
+                </div>
+                <div id="1-3" class="product-img-div" style="border: 1px solid black; height:400px; float: left; width: 33%;">
+                    <img class="product-img" src="https://www.aauxx.co.kr/web/product/medium/202305/c5a2953f268d2d8d9aff513948388953.jpg">
+                </div>
+                <div id="1-1-1" style="height:20px; float: left; width: 33%;">
+                    <a href=""><p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px; border-bottom: 1px solid #ececec;">아이링 어쩌구</p></a>
+                    <p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px;">10,000원</p>
+                </div>
+                <div id="1-2-1" style="height:20px; float: left; width: 33%;">
+                    <a href=""><p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px; border-bottom: 1px solid #ececec;">아이링 저쩌구</p></a>
+                    <p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px;">15,000원</p>
+                </div>
+                <div id="1-3-1" style="height:20px; float: left; width: 33%;">
+                    <a href=""><p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px; border-bottom: 1px solid #ececec;">아이링 맥세이프</p></a>
+                    <p style="text-align: center; margin: 0 0 2px; padding: 5px 0 12px;">20,000원</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div style="width: 100%; padding-top: 550px;">
+            <div id="f1" style="border: 1px solid #ececec; height:200px; float: left; width: 33%;">
+                고객 내용~
+            </div>
+            <div id="f2" style="border: 1px solid #ececec;; height:200px; float: left; width: 33%;">
+                회사 내용~
+            </div>
+            <div id="f3" style="border: 1px solid #ececec; height:200px; float: left; width: 33%;">
+                입금 내용~
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
